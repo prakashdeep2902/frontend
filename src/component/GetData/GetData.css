@@ -1,0 +1,54 @@
+.GetContainer{
+
+  
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    height: auto;
+}
+.box{
+
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid gray;
+    flex-direction: column;
+    width: 15rem;
+    height: max-content;
+    margin: 1rem;
+}
+strong{
+
+    color: red;
+}
+.deleteAndEditButton{
+
+    display: flex;
+   
+    width: 100%;
+    justify-content: space-between;
+    padding: .5rem;
+}
+.deleteAndEditButton button{
+
+    width: 5rem;
+    height: 1.5rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    background-color: black;
+    border-radius: .4rem;
+    color: white;
+
+}
+.edit-form{
+   
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 30rem;
+    top: 20%;
+    background-color: #fff;
+    z-index: 10000;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 4px 4px 4px 4px gainsboro;
+}
